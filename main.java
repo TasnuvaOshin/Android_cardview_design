@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@android:color/black">
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/magicflexi" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You Got 10 taka recharge"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+             android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:gravity="end"
+            android:id="@+id/title"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:textStyle="bold"
+            android:layout_below="@id/title"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#DCBB56"
+            android:text="Unpaid"
+          android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            ></Button>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
